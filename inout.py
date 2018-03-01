@@ -1,3 +1,7 @@
+import pandas as pd
+import numpy as np
+import re
+
 # Reader
 def read_file(file_name):
     df = pd.read_csv(file_name, sep=' ')
